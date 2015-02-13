@@ -80,4 +80,4 @@ var newPriceTax = newPrice + newTax;
 
 
 
-
+console
