@@ -66,6 +66,18 @@ var averageSpending = (groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + 
 console.log("You have spent a total of $" + totalGrocery + " on groceries over 5 weeks. That is an average of $" + averageSpending " per week");
 
 
+// Discounts
+
+console.log("PROBLEM 5: DISCOUNTS");
+
+var origPrice = prompt("Enter the original price.");
+var discPrice = prompt("Enter discount amount.");
+var saleTax = prompt("Enter sales tax amount.");
+
+var newPrice = origPrice * discPrice;
+var newTax = newPrice * saleTax;
+var newPriceTax = newPrice + newTax;
+
 
 
 
